@@ -44,10 +44,30 @@ a{
     font-size: 14px ;
     margin: 5px 8px;
     padding-right: 5px;
+    position: relative;
+
 }
 .navbar-center ul li a img{
     width: 30px;    
 }
+
+.navbar-center ul li a::after{
+      content: '';
+      width: 0;
+      height: 2px;
+      background: #045be6;
+      position: absolute;
+      bottom: -15px;
+      transition: width 0.3s;
+
+}
+  
+.navbar-center ul li a:hover::after{
+    width: 100%;
+
+}
+
+
 
 .nav-profile-img{
     width: 40px;
@@ -60,7 +80,7 @@ a{
     position: relative;
 }
 
-.online ::after{
+.online::after{
     content: '';
     width: 7px;
     height: 7px;
@@ -70,8 +90,4 @@ a{
     top: 0px;
     background: #41db51;
     position: absolute;
-
-
-
-
 }
