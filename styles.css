@@ -221,7 +221,20 @@ justify-content: space-between;
     width: 20px;
     margin-right:  10px;
 }
+.discover-more-link{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
 
+.discover-more-link a{
+    color: #045be6;
+    display: inline-block;
+    margin: 10px 0;
+
+}
 
 
 
@@ -230,6 +243,20 @@ justify-content: space-between;
     flex-basis: 25%;
     align-self:flex-start;
 }
+.sidebar-news{
+    background: #fff;
+    padding: 10px 25px;
+}
+
+.info-icon{
+        width: 15px;
+        float: right;
+        margin-top: 15px;
+}
+
+
+
+
 
 /*-------------main-content-----------*/
 .main-content{
