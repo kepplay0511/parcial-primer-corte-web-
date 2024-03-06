@@ -253,6 +253,12 @@ justify-content: space-between;
         float: right;
         margin-top: 15px;
 }
+.sidebar-news h3{
+    font-size: 18px;
+    font-weight: 600;
+    color:#333;
+    margin: 10px 0 30px;
+}
 
 
 
