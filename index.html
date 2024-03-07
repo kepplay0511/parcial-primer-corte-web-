@@ -3,124 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>parcial alejandro sarria </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Parcial 1 de  Web</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="img/logo.png"></a>
+            <div class="search-box">
+                <img src="img/search.png">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="img/inicio.png"><span>Inicio</span></a></li>
+                <li><a href="#"><img src="img/red.png"><span>Mi red</span></a></li>
+                <li><a href="#"><img src="img/trabajos.png"><span>Empleos</span></a></li>
+                <li><a href="#"><img src="img/mensajes.png"><span>Mensajes</span></a></li>
+                <li><a href="#"><img src="img/notificaciones.png"><span>Notificaciones</span></a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <div class="online">
+                <img src="img/foto_perfil.jpeg" class="nav-profile-img">
+            </div>
+        </div>
+    </nav>
     
-<nav class="navbar">
-    <div class="navbar-left">
-        <a href="index.html" class="logo"><img src="img/logo.png"></a>
 
-        <div class="search-box">
-          <img src="img/search.png">
-          <input type="text"  placeholder="Search">
-        </div>
-             
-    </div>
-    <div class="navbar-center"> <!-- menu central pagina web --> 
-        <ul>
-            <li><a href="#" class="active-link"><img src="img/home.png" > <span>INICIO</span></a></li>
-            <li><a href="#"><img src="img/network.png" > <span>MI RED</span></a></li>
-            <li><a href="#"><img src="img/jobs.png" > <span>EMPLEOS</span></a></li>
-            <li><a href="#"><img src="img/message.png" > <span>MENSAJES</span></a></li>
-            <li><a href="#"><img src="img/notification.png" > <span>NOTIFICACIONES</span>
-            </a></li>
-        </ul>
-    </div>
-
-    <div class="navbar-right">
-         <div class="online">
-            <img src="img/user-1.png" class="nav-profile-img"> <!--aqui debe ir mi foto de perfil --> 
-         </div>
-       
-    </div>
-</nav>
-
-<!--------------navbar close---------- -->
-
-<div class="container">
-    <!----------left-sidebar------------------>
-    <div class="left-sidebar">
-        <div class="sidebard-profile-box">
-            <img src="img/cover-pic.png" width="100%" >
-            <div class="sidebar-profile-info">
-                <img src="img/user-1.png">
-                <h1>Alejandro Sarria Diaz </h1>
-                <h3>web developer at microsoft</h3>
-                <ul>
-                    <li>your profile views<span>52</span></li>
-                    <li>your post views<span>850</span></li>
-                    <li>your connections<span>100</span></li>
-                </ul>
+    <!---------------------------------------left-sidebar------------------------------------------->
+    <div class="contenedor">
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="img/imagen_fondo.jpg" width="100%">
+                <div class="sidebar-profile-info">
+                    <img src="img/foto_perfil.jpeg">
+                    <h1>Alejandro Sarria Diaz</h1>
+                    <h3>Estudiante de Ingeniera Multimedia</h3>
+                    <h3>Universidad Autonoma de Occidente</h3>
+                    <ul>
+                        <li>Visualizaciones del perfil <span>500</span></li>
+                        <li>Impresiones de la publicación <span>120</span></li>
+                        <li>Visualizaciones del perfil <span>180</span></li>
+                    </ul>
+                </div>
+                <!----------------sidebar-profile-link------------------>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="img/items.png">Marcapáginas</a>
+                    <a href="#"><img src="img/premium.png">Prueba Premium</a>
+                </div>
             </div>
-            <div class="sidebar-profile-link">
-                <a href="#"><img src="img/items.png">my items</a>
-                <a href="#"><img src="img/premium.png">try premium</a>
-            </div>
-        </div>
-        <div class="sidebar-activity">
-            <h3>RECENT</h3>
-            <a href="#"><img src="img/recent.png">web development</a>
-            <a href="#"><img src="img/recent.png">user interface</a>
-            <a href="#"><img src="img/recent.png">online learning</a>
-            <a href="#"><img src="img/recent.png">learn online</a>
-            <a href="#"><img src="img/recent.png">code better</a>
-            <a href="#"><img src="img/recent.png">group learning</a>
-            <h3>GROUPS</h3>
-            <a href="#"><img src="img/group.png">web design group</a>
-            <a href="#"><img src="img/group.png">HTML & CSS learners</a>
-            <a href="#"><img src="img/group.png">python & JavaScript group</a>
-            <a href="#"><img src="img/group.png">learn coding online</a>
-            <h3>HASHTAG</h3>
-            <a href="#"><img src="img/hashtag.png">webdevelopment</a>
-            <a href="#"><img src="img/hashtag.png">userinterface</a>
-            <a href="#"><img src="img/hashtag.png">onlineLearning</a>
-            <div class="discover-more-link">
-                <a href="#">Discover more</a>
-            </div>
-        </div>
 
+            <div class="sidebar-activity">
+                <a href="#">Grupos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Hashtags seguidos</a>
+                <div class="discover-more-link">
+                    <a href="#">More</a>
+                </div>
+            </div>
+
+            <!--------------main-content--------------->
+        </div>
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="img/foto_perfil.jpeg">
+                    <textarea rows="2" placeholder="Escribe lo que piensas"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><i class="fa-regular fa-image"></i>Subir archivo multimedia</li>
+                    <li><i class="fa-solid fa-calendar-days"></i>Evento</li>
+                    <li><i class="fa-solid fa-newspaper"></i>Escribir artículo</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Ordenar por: <span>Principal<img src="img/down-arrow.png"></span></p>
+            </div>
+
+
+
+            <!------------post dentro de la pagina-------------------->
+            <div class="post">
+                <div class="post-author">
+                    <img src="img/perfil_post.jpeg">
+                    <div>
+                        <h1>Jose alejandro Burbano</h1>
+                        <small>Ingeniero en jefe de google colombia</small>
+                        <small>2 horas</small>
+                    </div>
+                </div>
+                <p>Mi gusto por la velocidad.<br><br> Manejo deportivo "soy veloz, velocidad soy mas rapido que veloz soy un rayo"</p>
+                <img src="img/moto.jpg" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="img/thumbsup.png">
+                        <img src="img/love.png">
+                        <img src="img/clap.png">
+                        <div class="liked-users">
+                            <span>2 comentarios • 5 veces compartido</span>
+                        </div>
+                    </div>
+                </div>
+                <!---------------comentarios, y recomendaciones de post-------------->
+                <div class="post-activity">
+                    <div>
+                        <img src="img/foto_perfil.jpeg" class="post-activity-user">
+                        <img src="img/down-arrow.png" class="post-activity-arrow">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/like.png">
+                        <span>Recomendar</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Comentar</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/share.png">
+                        <span>Compartir</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/send.png">
+                        <span>Enviar</span>
+                    </div>
+                </div>
+
+
+            </div>
+       <!------------post 2 dentro de la pagina-------------------->
+            <div class="post">
+                <div class="post-author">
+                    <img src="img/user-1.png">
+                    <div>
+                        <h1>Daniela Marcela Quintero</h1>
+                        <small>| Digital Marketing | Media Strategy |</small>
+                        <small>3 horas</small>
+                    </div>
+                </div>
+                <p>Check out this job at Kenvue: Sr. Brand Manager - Women's health</p>
+                <img src="img/post-image-2.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="img/thumbsup.png">
+                        <img src="img/love.png">
+                        <img src="img/clap.png">
+                        <div class="liked-users">
+                            <span>5 comentarios • 8 veces compartido</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="img/user-1.jpg" class="post-activity-user">
+                        <img src="img/down-arrow.png" class="post-activity-arrow">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/like.png">
+                        <span>Recomendar</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/comment.png">
+                        <span>Comentar</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/share.png">
+                        <span>Compartir</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="img/send.png">
+                        <span>Enviar</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+            
+
+             <!--------------------Right-sidebar------------------>
+        <div class="right-sidebar">
+            <div class="sidebar-feed">
+                <img src="img/more.png" class="info-icon">
+                <h3>Añadir a tu feed</h3>
+                <div class="profile-suggestion">
+                    <img src="img/user-gaming.png">
+                    <a href="#">Teriun Games</a>
+                    <span>Empresa • Videojuegos</span>
+                    <br>
+                    <button>Seguir</button>
+                </div>  
+                <div class="profile-suggestion">
+                    <img src="img/user-cine.png">
+                    <a href="#">Salón de Productores y Proyectos Cinematográficos SAPCINE</a>
+                    <span>Le apostamos a la coproducción del cine</span>
+                    <br>
+                    <button>Seguir</button>
+                </div>
+                <div class="profile-suggestion">
+                    <img src="img/user-psico.png">
+                    <a href="#">Luisa Fernanda Cepeda Hernandez</a>
+                    <span>Psicóloga | Analista de Reclutamiento |</span>
+                    <br>
+                    <button>Seguir</button>
+                </div>
+
+                <a href="#" class="ver-mas-link">Ver todas las recomendaciones →</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">Acerca de</a>
+                <a href="#">Accesibilidad</a>
+                <a href="#">Centro de ayuda</a>
+                <a href="#">Privacidad y condiciones</a>
+                <a href="#">Opciones de publicidad</a>
+                <a href="#">Publicidad</a>
+                <a href="#">Servicios empresariales</a>
+                <a href="#">Descargar la aplicacion de Linkedln</a>
+                <a href="#">Más</a>
+
+                <div class="copyright-msg">
+                    <img src="img/logo.png">
+                    <p>Linkedup Corporation &#169; 2024</p>
+                </div>
+
+            </div>
+        </div>
     </div>
-      <!----------main-content------------------>
-    <div class="main-content"></div>
-      <!----------right-sidebar------------------>
-    <div class="right-sidebar">
-        <div class="sidebar-news">
-            <img src="img/more.png" class="info-icon">
-            <h3>trending new</h3>
-            <a href="#">Hight demand for skilled manpower</a>
-            <span>1d ago &middot; 10,980 readers</span>
-
-            <a href="#">careers growing horizontally too</a>
-            <span>19d ago &middot; 1,780 readers</span>
-
-            <a href="#">less wor visa for us, more for uk</a>
-            <span>11d ago &middot; 50,980 readers</span>
-
-            <a href="#">more hirng = higher confidence?</a>
-            <span>14d ago &middot; 9,800 readers</span>
-
-            <a href="#">gautam adani is the world's third rinchest</a>
-            <span>12d ago &middot; 11,480 readers</span>
-
-            <a href="#" class="read-more-link">Read more</a>
-        </div>
-
-        <div class="sidebar-ad">
-            <small>Ad</small>
-            <p>mastee the principal of the web design </p>
-            <div>
-                <img src="img/user-1.png" >
-                <img src="img/mi-logo.png" >
-            </div>
-            <b>Brand and Demand in Xiaomi</b>
-            <a href="#" class="ad-link">Learn More</a>
-        </div>
-
-    </div>
-</div>
-
 
 </body>
 </html>
